@@ -1,0 +1,455 @@
+# MeTTa Self-Reflective RAG - Git Ignore File
+
+# ===========================================
+# Python Backend
+# ===========================================
+
+# Virtual Environment
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Python Cache
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# Environment Variables
+backend/.env
+backend/.env.*
+backend/.envrc
+
+# Database Files
+backend/data/users.db
+backend/data/users.db-journal
+backend/data/chroma_db/
+backend/data/uploads/
+backend/data/cache_store.json
+
+# Logs
+backend/logs/
+backend/*.log
+backend/logs/reasoning_traces.jsonl
+
+# IDE and Editor Files
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+backend/*.swo
+backend/*~
+
+# Testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/coverage.xml
+backend/*.cover
+backend/.hypothesis/
+
+# Jupyter Notebook
+backend/.ipynb_checkpoints
+
+# pyenv
+backend/.python-version
+
+# pipenv
+backend/Pipfile.lock
+
+# Poetry
+backend/poetry.lock
+
+# Celery
+backend/celerybeat-schedule
+backend/celerybeat.pid
+
+# SageMath parsed files
+backend/*.sage.py
+
+# Spyder project settings
+backend/.spyderproject
+backend/.spyproject
+
+# mkdocs documentation
+backend/site
+
+# mypy
+backend/.mypy_cache/
+backend/.dmypy.json
+backend/dmypy.json
+
+# Pyre type checker
+backend/.pyre/
+
+# ===========================================
+# Node.js Frontend
+# ===========================================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Production builds
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Coverage directory used by tools like istanbul
+frontend/coverage/
+frontend/.nyc_output
+
+# Grunt intermediate storage
+frontend/.grunt
+
+# Bower dependency directory
+frontend/bower_components
+
+# node-waf configuration
+frontend/.lock-wscript
+
+# Compiled binary addons
+frontend/build/Release
+
+# Dependency directories
+frontend/jspm_packages/
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+
+# Optional npm cache directory
+frontend/.npm
+
+# Optional eslint cache
+frontend/.eslintcache
+
+# Optional stylelint cache
+frontend/.stylelintcache
+
+# Microbundle cache
+frontend/.rpt2_cache/
+frontend/.rts2_cache_cjs/
+frontend/.rts2_cache_es/
+frontend/.rts2_cache_umd/
+
+# Optional REPL history
+frontend/.node_repl_history
+
+# Output of 'npm pack'
+frontend/*.tgz
+
+# Yarn Integrity file
+frontend/.yarn-integrity
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Nuxt.js
+frontend/.nuxt
+frontend/dist
+
+# Gatsby files
+frontend/.cache/
+frontend/public
+
+# Storybook build outputs
+frontend/.out
+frontend/.storybook-out
+frontend/storybook-static
+
+# Temporary folders
+frontend/tmp/
+frontend/temp/
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+frontend/.pnpm-debug.log*
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Diagnostic reports
+frontend/reports
+frontend/*.tsbuildinfo
+
+# Optional npm cache directory
+frontend/.npm
+
+# Optional eslint cache
+frontend/.eslintcache
+
+# Optional stylelint cache
+frontend/.stylelintcache
+
+# Microbundle cache
+frontend/.rpt2_cache/
+frontend/.rts2_cache_cjs/
+frontend/.rts2_cache_es/
+frontend/.rts2_cache_umd/
+
+# Optional REPL history
+frontend/.node_repl_history
+
+# Output of 'npm pack'
+frontend/*.tgz
+
+# Yarn Integrity file
+frontend/.yarn-integrity
+
+# parcel-bundler cache
+frontend/.cache
+frontend/.parcel-cache
+
+# Next.js build output
+frontend/.next
+frontend/out
+
+# Nuxt.js build / generate output
+frontend/.nuxt
+frontend/dist
+
+# Gatsby files
+frontend/.cache/
+frontend/public
+
+# Storybook build outputs
+frontend/.out
+frontend/.storybook-out
+frontend/storybook-static
+
+# Temporary folders
+frontend/tmp/
+frontend/temp/
+
+# ===========================================
+# General Development Files
+# ===========================================
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# Project Specific
+# ===========================================
+
+# API Keys and Secrets
+**/.env
+**/.env.*
+**/secrets.json
+**/config.json
+
+# Database files
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Upload directories
+**/uploads/
+**/data/uploads/
+
+# Log files
+**/*.log
+**/logs/
+
+# Cache directories
+**/cache/
+**/.cache/
+
+# Build artifacts
+**/build/
+**/dist/
+**/out/
+
+# Test coverage
+**/coverage/
+**/.coverage
+
+# Documentation builds
+**/docs/_build/
+**/site/
+
+# ===========================================
+# Machine Learning / AI Specific
+# ===========================================
+
+# Model files
+**/*.pkl
+**/*.pickle
+**/*.joblib
+**/*.h5
+**/*.hdf5
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.tflite
+**/*.pb
+
+# Vector databases
+**/chroma_db/
+**/faiss_index/
+**/pinecone_cache/
+
+# Embedding caches
+**/embeddings_cache/
+**/.embeddings/
+
+# Hugging Face cache
+**/.cache/huggingface/
+
+# TensorBoard logs
+**/runs/
+**/tensorboard_logs/
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Weights and Biases
+**/wandb/
+
+# MLflow
+**/mlruns/
+
+# ===========================================
+# Security
+# ===========================================
+
+# Private keys
+**/*.pem
+**/*.key
+**/*.crt
+**/*.p12
+**/*.pfx
+
+# API credentials
+**/credentials.json
+**/service-account.json
+**/firebase-adminsdk-*.json
+
+# ===========================================
+# Documentation
+# ===========================================
+
+# Generated documentation
+**/docs/_build/
+**/docs/build/
+**/site/
+**/_site/
+
+# Sphinx documentation
+**/docs/_build/
+**/docs/build/
+
+# MkDocs documentation
+**/site/
+
+# ===========================================
+# Deployment
+# ===========================================
+
+# Docker
+**/Dockerfile.local
+**/docker-compose.override.yml
+**/.dockerignore
+
+# Kubernetes
+**/k8s-secrets/
+**/helm-secrets/
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform.lock.hcl
+
+# Ansible
+**/ansible-vault-password
+**/.vault_pass
+
+# ===========================================
+# Monitoring and Analytics
+# ===========================================
+
+# Sentry
+**/.sentryclirc
+
+# Analytics
+**/analytics/
+**/metrics/
+
+# Performance monitoring
+**/profiling/
+**/benchmarks/
