@@ -1,0 +1,35 @@
+# Core Framework
+Flask==2.3.2
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# Graph Orchestration
+langgraph
+
+# Vector Store
+chromadb
+
+# Text Processing & Chunking
+pdfplumber
+PyPDF2
+langchain
+langchain-core
+langchain-google-genai
+langchain-community
+
+# ML/NLP
+sentence-transformers
+numpy
+huggingface_hub
+torch
+
+# Utilities
+tqdm
+requests
+pydantic
+
+# Authentication
+PyJWT==2.8.0
+bcrypt==4.1.2
+flask-sqlalchemy==3.1.1
+flask-migrate==4.0.5
